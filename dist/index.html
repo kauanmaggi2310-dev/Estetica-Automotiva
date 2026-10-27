@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0c0e" />
+    <meta name="description" content="Victorio Estética Automotiva — cuidado detalhista para o seu carro, por dentro e por fora." />
+    <title>Victorio Estética Automotiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" id="topo">
+      <a class="brand" href="#topo" aria-label="Victorio Estética — início">
+        <span class="brand-mark" aria-hidden="true"><i>V</i></span>
+        <span class="brand-name">VICTORIO <small>ESTÉTICA AUTOMOTIVA</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Nosso cuidado</a>
+        <a href="#resultado">Resultado</a>
+      </nav>
+      <button class="header-cta" data-open-contact>Agendar cuidado <span>↗</span></button>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <div class="mobile-menu" aria-hidden="true">
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Nosso cuidado</a>
+      <a href="#resultado">Resultado</a>
+      <button data-open-contact>Solicitar orçamento</button>
+    </div>
+
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="https://victorio-estetica-auto.snugash9.chatgpt.site/assets/victorio-hero.png" alt="Sedã preto recebendo lavagem detalhada em estúdio automotivo" />
+        <div class="hero-scrim"></div>
+        <div class="hero-grain"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> ESTÉTICA AUTOMOTIVA</p>
+          <h1 id="hero-title">Seu carro.<br /><em>Outra presença.</em></h1>
+          <p class="hero-lead">Lavagem, higienização e cuidado técnico para devolver ao seu veículo a sensação de novo.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" data-open-contact>Quero cuidar do meu carro <span>↗</span></button>
+            <a class="text-link" href="#servicos">Ver serviços <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-index" aria-hidden="true"><b>01</b><span></span><small>04</small></div>
+        <div class="hero-note"><span>V</span><p>Detalhe não é excesso.<br />É o nosso padrão.</p></div>
+        <div class="scroll-cue" aria-hidden="true">SCROLL <i></i></div>
+      </section>
+
+      <section class="manifesto section-pad">
+        <div class="section-kicker">01 — O PADRÃO VICTORIO</div>
+        <div class="manifesto-grid">
+          <h2>Não é só limpar.<br />É <em>cuidar.</em></h2>
+          <div>
+            <p>Seu carro faz parte da rotina, dos planos e das histórias. Por isso, cada superfície merece atenção: da pintura aos estofados, do acabamento ao último detalhe.</p>
+            <p class="micro-copy">PRODUTOS ADEQUADOS <span>•</span> PROCESSO CUIDADOSO <span>•</span> ACABAMENTO PRECISO</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="servicos" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">02 — SERVIÇOS</p><h2 id="services-title">O cuidado certo<br />em cada detalhe.</h2></div>
+          <p>Escolha o serviço ideal para o momento do seu veículo. Na dúvida, conte o que ele precisa e indicamos o melhor caminho.</p>
+        </div>
+
+        <div class="service-list">
+          <article class="service-card featured">
+            <div class="service-num">01</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 80 80"><path d="M14 48h52l-5-15c-2-5-5-8-10-8H29c-5 0-8 3-10 8l-5 15Z"/><path d="M11 49v10h8l3-5h36l3 5h8V49M27 25l-4-8M53 25l4-8"/><circle cx="25" cy="48" r="3"/><circle cx="55" cy="48" r="3"/></svg>
+            </div>
+            <div class="service-content"><h3>Estética<br />automotiva</h3><p>Cuidado visual completo, com atenção às superfícies, acabamentos e apresentação do veículo.</p></div>
+            <button class="round-arrow" data-open-contact aria-label="Solicitar estética automotiva">↗</button>
+          </article>
+          <article class="service-card">
+            <div class="service-num">02</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 80 80"><path d="M25 57V26c0-5 3-8 8-8h10c5 0 8 3 8 8v31M18 57h42M30 38h16M56 22c4 5 6 9 6 12a6 6 0 0 1-12 0c0-3 2-7 6-12Z"/></svg>
+            </div>
+            <div class="service-content"><h3>Higienização<br />de estofados</h3><p>Limpeza profunda para bancos e tecidos, removendo a sujeira acumulada e renovando a sensação interna.</p></div>
+            <button class="round-arrow" data-open-contact aria-label="Solicitar higienização de estofados">↗</button>
+          </article>
+          <article class="service-card">
+            <div class="service-num">03</div>
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 80 80"><path d="M17 52h46M22 52l4-17h28l4 17M28 35l4-10h16l4 10M25 59h5M50 59h5"/><path d="M14 18c4 4 6 8 6 11M66 18c-4 4-6 8-6 11"/></svg>
+            </div>
+            <div class="service-content"><h3>Lava-rápido</h3><p>Agilidade com capricho para manter o carro limpo, apresentável e pronto para seguir a rotina.</p></div>
+            <button class="round-arrow" data-open-contact aria-label="Solicitar lava-rápido">↗</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="process section-pad" id="processo" aria-labelledby="process-title">
+        <div class="process-orbit" aria-hidden="true"><span>V</span><i></i><b></b></div>
+        <div class="process-copy">
+          <p class="section-kicker light">03 — NOSSO CUIDADO</p>
+          <h2 id="process-title">Um processo simples.<br /><em>Um resultado que aparece.</em></h2>
+          <ol>
+            <li><span>01</span><div><h3>Você conta o que precisa</h3><p>Entendemos o momento do carro e o resultado que você busca.</p></div></li>
+            <li><span>02</span><div><h3>Indicamos o cuidado ideal</h3><p>Sem excesso: apenas os serviços que fazem sentido para o veículo.</p></div></li>
+            <li><span>03</span><div><h3>A Victorio cuida dos detalhes</h3><p>Executamos cada etapa com método, atenção e acabamento.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="result section-pad" id="resultado" aria-labelledby="result-title">
+        <div class="result-heading">
+          <p class="section-kicker">04 — RESULTADO</p>
+          <h2 id="result-title">A diferença está<br /><em>nos detalhes.</em></h2>
+        </div>
+        <div class="comparison" data-comparison>
+          <div class="comparison-layer before"><div class="detail-surface"></div><span>ANTES</span></div>
+          <div class="comparison-layer after"><div class="detail-surface"></div><span>DEPOIS</span></div>
+          <div class="comparison-handle" aria-hidden="true"><i>‹</i><b></b><i>›</i></div>
+          <input type="range" min="12" max="88" value="50" aria-label="Comparar antes e depois" />
+        </div>
+        <p class="comparison-caption">Arraste para comparar <span>↔</span></p>
+      </section>
+
+      <section class="cta-section">
+        <div class="cta-glow"></div>
+        <div class="cta-inner">
+          <p class="section-kicker light">PRONTO PARA COMEÇAR?</p>
+          <h2>Seu carro merece<br /><em>esse cuidado.</em></h2>
+          <p>Conte para a gente do que seu veículo precisa e solicite um orçamento.</p>
+          <button class="button button-primary" data-open-contact>Solicitar orçamento <span>↗</span></button>
+        </div>
+        <div class="outline-word" aria-hidden="true">VICTORIO</div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#topo"><span class="brand-mark"><i>V</i></span><span class="brand-name">VICTORIO <small>ESTÉTICA AUTOMOTIVA</small></span></a>
+      <p>Limpeza, higienização e estética automotiva.</p>
+      <button data-open-contact>FALE COM A VICTORIO ↗</button>
+      <small>© 2026 VICTORIO ESTÉTICA AUTOMOTIVA</small>
+    </footer>
+
+    <dialog class="contact-dialog" id="contact-dialog">
+      <button class="dialog-close" aria-label="Fechar">×</button>
+      <p class="section-kicker">SOLICITE SEU ORÇAMENTO</p>
+      <h2>Vamos cuidar<br />do seu carro?</h2>
+      <form id="contact-form">
+        <label>Seu nome<input name="nome" type="text" placeholder="Como podemos chamar você?" required /></label>
+        <label>Veículo<input name="veiculo" type="text" placeholder="Ex.: Sedan prata" required /></label>
+        <label>O que você precisa?
+          <select name="servico" required><option value="">Selecione um serviço</option><option>Estética automotiva</option><option>Higienização de estofados</option><option>Lava-rápido</option><option>Quero uma recomendação</option></select>
+        </label>
+        <button class="button button-primary" type="submit">Preparar mensagem <span>↗</span></button>
+        <p class="form-note">Protótipo: a mensagem será copiada para você enviar no canal de atendimento.</p>
+      </form>
+      <div class="success-state" hidden><span>✓</span><h3>Mensagem pronta!</h3><p>Copiamos o pedido para sua área de transferência.</p><button class="text-link dialog-reset">Fazer outro pedido</button></div>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite">Mensagem copiada</div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
