@@ -1,13 +1,16 @@
-# Victorio Estética Automotiva
+# LavaJet Estética Automotiva
 
-Landing page responsiva para a Victorio Estética Automotiva.
+Landing page responsiva para serviços de estética automotiva **a domicílio**.
 
 ## Serviços apresentados
 
 - Estética automotiva
 - Higienização de estofados
 - Lava-rápido
+- Atendimento no endereço do cliente
 
-## Estrutura
+## Publicação
 
-O site está em `dist/` e pode ser servido como conteúdo estático.
+- Produção: https://esteticaato.vercel.app
+- Arquivos estáticos: `dist/`
+- Configuração da Vercel: `vercel.json`
