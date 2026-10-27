@@ -27,7 +27,7 @@ dialog?.addEventListener('click',event=>{if(event.target===dialog)dialog.close()
 form?.addEventListener('submit',async event=>{
   event.preventDefault();
   const data=new FormData(form);
-  const message=`Olá, Victorio! Meu nome é ${data.get('nome')}. Meu veículo é ${data.get('veiculo')} e tenho interesse em ${data.get('servico')}. Gostaria de solicitar um orçamento.`;
+  const message=`Olá, LavaJet! Meu nome é ${data.get('nome')}. Meu veículo é ${data.get('veiculo')} e tenho interesse em ${data.get('servico')}. Gostaria de solicitar um orçamento para atendimento a domicílio.`;
   try{await navigator.clipboard.writeText(message)}catch{const area=document.createElement('textarea');area.value=message;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove()}
   form.hidden=true;success.hidden=false;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);
 });
